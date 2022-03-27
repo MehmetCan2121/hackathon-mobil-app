@@ -22,7 +22,7 @@ $ git push
 ```
 
 
-<h2><i>Uygulamanın Amacı</i></h2>
+<h2><i>Uygulamanın İnsanlığa Yararı</i></h2>
 
  <ul>
   <li>Doğa için çok önemli olan ağaçların kağıt yapımı için kesilmesini engellemek.</li>
