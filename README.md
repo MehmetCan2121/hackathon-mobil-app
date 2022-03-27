@@ -1,7 +1,9 @@
-<h2>Uygulamayı Cihaza Yükleme</h2>
+<h2><i>Uygulamayı Cihaza Yükleme</i></h2>
 
 ```
 $ git clone 'https://github.com/MehmetCan2121/hackathon-mobil-app.git'
 
 ```
 <br/>
+
+
