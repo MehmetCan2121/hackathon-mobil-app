@@ -1,5 +1,11 @@
 <h1>KOTLIN + OOP</h1>
 
+<h2><i>Kodlara Erişim</i></h2>
+
+```
+hackathon-mobil-app/OgrenciNot/app/src/main/java/com/mehmetcanmut/ogrencinot/
+```
+
 <h2><i>Uygulamayı Cihaza Yükleme</i></h2>
 
 ```
@@ -7,7 +13,7 @@ $ git clone 'https://github.com/MehmetCan2121/hackathon-mobil-app.git'
 $ cd hackathon-mobil-app
 ```
 
-<h2><i>Uygulamayı Push Etme</i></h2>
+<h2><i>Uygulamayı Github'a Push Etme</i></h2>
 
 ```
 $ git add .
