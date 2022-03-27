@@ -1,4 +1,4 @@
-<h1>KOTLIN + OOP</h1>
+<h1>KOTLIN</h1>
 
 <h2><i>Kodlara Erişim</i></h2>
 
