@@ -32,7 +32,16 @@ $ git push
   <li>Fotokopi çektirecek durumu olmayan öğrencilerin mobil üzerinden notlara rahatlıkla ulaşım sağlaması.
  </ul>
 
-
+<h2><i>İleride Yapılacaklar</i></h2>
+ <ul>
+  <li>Kullanıcı kayıt ekranında bir alan boş bırakıldığı zaman bu uygulamada gerekli kontroller yapılacak.</li>
+  <li>Üniversite mail kontrolü yapılacaktır.(Mail adresine doğrulama kodu gelerek kayıt olma işlemi tamamlanacak.Kullanıcının üniversitesi otomatik olarak seçilecektir.)</li>    
+      <li>Projeye pdf,pptx,word uzantılı dosyaların da eklenmesini sağlamak.
+Kullanıcının dosya aramasını kolaylaştırmak için jpeg dosyalarını yazı dosyası haline çeviren sistemi projeye eklemek.</li>
+  <li>Not listeleme ekranında filtreleme işlemleri aktif edilecek aktif olduğu zaman erişim daha hızlı hale gelecek.</li>  
+   <li>Soru ekleme ve listeleme kısmı aktif edilecek.</li>
+  <li>Yazılım ekibinin maddi kazancı için Google admob reklamları eklenecek.</li>
+ </ul>
 
 <br/>
 <h2><i>Uygulama Tasarımı</i></h2>
