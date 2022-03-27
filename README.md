@@ -17,9 +17,13 @@ $ git push
 
 
 <h2><i>Uygulamanın Amacı</i></h2>
-<p><i>Doğa için çok önemli olan ağaçların kağıt yapımı için kesilmesini engellemek.
- Farklı üniversitelerde olup aynı bölümü okuyan öğrencilerin veya aynı üniversitede okuyan öğrencilerin ders notlarını ve çıkmış sınav sorularını  bu platform aracılığıyla birbirlerine ulaştırabilmelerini sağlamak.
-Fotokopi çektirecek durumu olmayan öğrencilerin mobil üzerinden notlara rahatlıkla ulaşım sağlaması.</i></p>
+
+ <ul>
+  <li>Doğa için çok önemli olan ağaçların kağıt yapımı için kesilmesini engellemek.</li>
+    <li> Farklı üniversitelerde olup aynı bölümü okuyan öğrencilerin veya aynı üniversitede okuyan öğrencilerin ders notlarını ve çıkmış sınav sorularını  bu platform aracılığıyla birbirlerine ulaştırabilmelerini sağlamak.</li>
+  <li>Fotokopi çektirecek durumu olmayan öğrencilerin mobil üzerinden notlara rahatlıkla ulaşım sağlaması.
+ </ul>
+
 
 
 <br/>
