@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "535418868140",
+    "project_id": "ogrencinot-652e7",
+    "storage_bucket": "ogrencinot-652e7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:535418868140:android:3cf53dbbaf59e6ceaaea09",
+        "android_client_info": {
+          "package_name": "com.mehmetcanmut.ogrencinot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "535418868140-hrvckovhb42o22s85nt1alpid099cnjg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUc5wZ9WlviasbpI5UmqvUEB6hiGzFQYM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "535418868140-hrvckovhb42o22s85nt1alpid099cnjg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

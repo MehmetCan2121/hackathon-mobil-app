@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
+    tools:context=".view.RegisterActivity">
+
+    <EditText
+        android:id="@+id/soyadText"
+        android:layout_width="200dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="17dp"
+        android:background="@drawable/edittextarkaplan"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Soyad"
+        android:inputType="textPersonName"
+        android:textColorHint="#C3AAAA"
+        app:layout_constraintBottom_toTopOf="@+id/ogrencinoText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/adText"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/ogrencinoText"
+        android:layout_width="200dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/edittextarkaplan"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Ögrenci No"
+        android:inputType="textPersonName"
+        android:textColorHint="#C3AAAA"
+        app:layout_constraintBottom_toTopOf="@+id/emailText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/soyadText"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/emailText"
+        android:layout_width="200dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="18dp"
+        android:background="@drawable/edittextarkaplan"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="E-Mail"
+        android:inputType="textPersonName"
+        android:textColorHint="#C3AAAA"
+        app:layout_constraintBottom_toTopOf="@+id/sifreText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ogrencinoText"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/sifreText"
+        android:layout_width="200dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="18dp"
+        android:background="@drawable/edittextarkaplan"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Şifre"
+        android:inputType="textPersonName"
+        android:textColorHint="#C3AAAA"
+        app:layout_constraintBottom_toTopOf="@+id/sifreText2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/emailText"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/universiteText"
+        android:layout_width="200dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/edittextarkaplan"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Üniversite Adı"
+        android:inputType="textPersonName"
+        android:textColorHint="#C3AAAA"
+        app:layout_constraintBottom_toTopOf="@+id/fakulteText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sifreText2"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/sifreText2"
+        android:layout_width="200dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="17dp"
+        android:background="@drawable/edittextarkaplan"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Şifre Tekrar"
+        android:inputType="textPersonName"
+        android:textColorHint="#C3AAAA"
+        app:layout_constraintBottom_toTopOf="@+id/universiteText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sifreText"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/fakulteText"
+        android:layout_width="200dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="22dp"
+        android:background="@drawable/edittextarkaplan"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Fakülte"
+        android:inputType="textPersonName"
+        android:textColorHint="#C3AAAA"
+        app:layout_constraintBottom_toTopOf="@+id/bolumText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/universiteText"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/bolumText"
+        android:layout_width="200dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="22dp"
+        android:background="@drawable/edittextarkaplan"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Bölüm"
+        android:inputType="textPersonName"
+        android:textColorHint="#C3AAAA"
+        app:layout_constraintBottom_toTopOf="@+id/sinifText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fakulteText"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/sinifText"
+        android:layout_width="200dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/edittextarkaplan"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Sınıf"
+        android:inputType="textPersonName"
+        android:textColorHint="#C3AAAA"
+        app:layout_constraintBottom_toTopOf="@+id/button7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bolumText"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/adText"
+        android:layout_width="200dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="29dp"
+        android:layout_marginBottom="14dp"
+        android:background="@drawable/edittextarkaplan"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Ad"
+        android:inputType="textPersonName"
+        android:textColorHint="#C3AAAA"
+        app:layout_constraintBottom_toTopOf="@+id/soyadText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="94dp"
+
+        android:background="@drawable/buttonarkaplan"
+        android:onClick="kayitol"
+        android:text="Kayıt Ol"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sinifText"
+        tools:ignore="TouchTargetSizeCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

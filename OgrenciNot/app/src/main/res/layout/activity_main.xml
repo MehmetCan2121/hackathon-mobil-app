@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
+    tools:context=".view.MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55dp"
+        android:layout_marginBottom="32dp"
+        app:layout_constraintBottom_toTopOf="@+id/emailText2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
+
+    <EditText
+        android:id="@+id/emailText2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="75dp"
+        android:layout_marginEnd="75dp"
+        android:layout_marginBottom="26dp"
+        android:background="@drawable/edittextarkaplan"
+
+        android:drawableLeft="@drawable/account"
+        android:ems="10"
+        android:hint="E-Mail"
+        android:padding="10dp"
+        android:textColorHint="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/sifreText3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_editor_absoluteX="93dp"
+        app:layout_editor_absoluteY="348dp" />
+
+    <EditText
+        android:id="@+id/sifreText3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="77dp"
+        android:layout_marginEnd="77dp"
+
+        android:layout_marginBottom="19dp"
+        android:background="@drawable/edittextarkaplan"
+
+        android:drawableLeft="@drawable/lock"
+        android:ems="10"
+        android:hint="Parola"
+        android:padding="10dp"
+        android:textColorHint="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/emailText2"
+        app:layout_editor_absoluteX="93dp"
+        app:layout_editor_absoluteY="348dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="244dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="21dp"
+        android:background="@drawable/buttonarkaplan"
+        android:onClick="girisyap"
+        android:text="Giris Yap"
+        app:layout_constraintBottom_toTopOf="@+id/button2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sifreText3"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="244dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="168dp"
+        android:background="@drawable/buttonarkaplan"
+        android:onClick="kayitol"
+        android:text="Kayıt Ol"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button"
+        tools:ignore="TouchTargetSizeCheck" />
+</androidx.constraintlayout.widget.ConstraintLayout>

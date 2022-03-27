@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
+    tools:context=".view.NotEkleActivity">
+
+    <EditText
+        android:id="@+id/universitetext"
+        android:layout_width="200dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="23dp"
+        android:background="@drawable/edittextarkaplan"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Üniversite"
+        android:inputType="textPersonName"
+
+        android:padding="10dp"
+        android:textColorHint="#C3AAAA"
+        app:layout_constraintBottom_toTopOf="@+id/bolumtext"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dersText"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/bolumtext"
+        android:layout_width="200dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="38dp"
+        android:background="@drawable/edittextarkaplan"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Bölüm"
+        android:inputType="textPersonName"
+
+        android:padding="10dp"
+        android:textColorHint="#C3AAAA"
+        app:layout_constraintBottom_toTopOf="@+id/siniftext"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/universitetext"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="58dp"
+        android:layout_marginBottom="26dp"
+        android:onClick="notEkle"
+        app:layout_constraintBottom_toTopOf="@+id/dersText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/notekle"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <EditText
+        android:id="@+id/dersText"
+        android:layout_width="200dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="22dp"
+        android:background="@drawable/edittextarkaplan"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Ders"
+        android:inputType="textPersonName"
+
+        android:padding="10dp"
+        android:textColorHint="#C3AAAA"
+        app:layout_constraintBottom_toTopOf="@+id/universitetext"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="200dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="86dp"
+        android:background="@drawable/buttonarkaplan"
+        android:onClick="kaydet"
+        android:text="Kaydet"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/siniftext" />
+
+    <EditText
+        android:id="@+id/siniftext"
+        android:layout_width="200dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="56dp"
+        android:background="@drawable/edittextarkaplan"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Sınıf"
+        android:inputType="textPersonName"
+
+        android:padding="10dp"
+        android:textColorHint="#C3AAAA"
+        app:layout_constraintBottom_toTopOf="@+id/button8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bolumtext"
+        tools:ignore="TouchTargetSizeCheck" />
+</androidx.constraintlayout.widget.ConstraintLayout>
