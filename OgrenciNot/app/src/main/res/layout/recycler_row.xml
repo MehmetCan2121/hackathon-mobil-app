@@ -15,5 +15,13 @@
         android:layout_margin="1dp">
 
     </ImageView>
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittextarkaplan"
+        android:drawableLeft="@drawable/like"
+        android:gravity="right"
+        android:text="Puan : 25        " />
 
 </LinearLayout>
